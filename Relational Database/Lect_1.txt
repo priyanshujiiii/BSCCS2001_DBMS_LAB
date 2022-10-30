@@ -15,7 +15,15 @@ Anamoly : inconsistency of data arises due to change of data in data bases.
 
 >>D>> The design must consider all expected data over time.
 
+Discussion:
 
+>>B>> The design must promote redundant storage of the data items.
+ if we discussed about option b. we clearly seeing that redundant storage are multiple copies of data.
+ another thing is if we discussed about good data base reduanant storage make database inconsisent this lead 
+ sign of bad data base.
+
+______________________________________________________________________________________________________________________________________________________________
+**************************************************************************************************************************************************************
 
 2) Which among the following statements is/are true about redundancy in databases?
 
