@@ -35,6 +35,33 @@ ________________________________________________________________________________
 
 >>D>> Redundancy can be reduced by appropriate decomposition of relations.
 
+Here this problem covering 5 concepts :Redundancy , anamoly , data anomaly , un-normalized database, decomposition of relation.
+first fall here we are covering the all these concept
+1) Redundancy : Multiple copies of Data
+
+2) Anamoly : inconsistency of data arises due to change of data in data bases.
+             Anamoly are in 3 types. 1) Insertions Anomaly : When the insertion of a data record is not possible without adding some additional
+                                        unrelated data to the record
+                                     2) Deletion Anomaly : When deletion of a data record results in losing some unrelated information that
+                                        was stored as part of the record that was deleted from a table
+                                     3) Update Anomaly : When a data is changed, which could involve many records having to be changed,
+                                        leading to the possibility of some changes being made incorrectly
+                                        
+3) Data Anamoly: inconsistency of data arises due to change of data in data bases.
+
+4)  un-normalized database: If a database design is not perfect, it may contain anomalies, which are like a bad dream for any database administrator. Managing a database with anomalies is next to impossible. Anamoly are in 3 types.  1) Insertions Anomaly 2) Deletion Anomaly 3) Update Anomaly 
+
+5)  decomposition of relation: 
+    Relational Decomposition
+    >> When a relation in the relational model is not in appropriate normal form then the decomposition of a relation is required.
+    >> In a database, it breaks the table into multiple tables.
+    >> If the relation has no proper decomposition, then it may lead to problems like loss of information.
+    >> Decomposition is used to eliminate some of the problems of bad design like anomalies, inconsistencies, and redundancy.
+    
+    Relational Decomposition are in 2 types: 1) Lossless Decomposition 2) Dependency Preserving
+
+_______________________________________________________________________________________________________________________________________________________________
+***************************************************************************************************************************************************************
 
 3) Which of the following is not a data anomaly?
 
