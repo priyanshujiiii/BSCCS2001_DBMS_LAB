@@ -81,7 +81,16 @@ ________________________________________________________________________________
 
 >>D>> Update anomaly
 
+Discussion:
 
+Anomaly: inconsistencies that can arise due to data changes in a database with
+insertion, deletion, and update
+Anamoly are in 3 types.  1) Insertions Anomaly 2) Deletion Anomaly 3) Update Anomaly 
+
+ANS: A
+
+_______________________________________________________________________________________________________________________________________________________________
+***************************************************************************************************************************************************************
 
 4) In a database, changing a single data may require changing many records, leading to the possibility of some changes being made incorrectly.
 This situation can be described as ...............
