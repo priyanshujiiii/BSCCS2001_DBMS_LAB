@@ -190,17 +190,16 @@ ________________________________________________________________________________
 7) We want to store information about some books in a database. Every book has a unique ISBN, a name, a publisher and multiple authors. An author can also 
 write multiple books. We consider the following two relations, each of which are in 1NF.
 
-books { isbn, name, publisherisbn,name,publisher }
-authors { isbn, authorisbn,author}
+books { isbn, name,publisher }
+authors { isbn,author}
 
 What should be the primary keys for the tables?
 
 >>A>> isbn attribute for relation books and isbn for relation authors.
 
->>B>> publisher attribute for relationbooks and isbn for relation authors.
+>>B>> publisher attribute for relation books and isbn for relation authors.
 
 >>C>> publisher attribute for relation books and author for relation authors.
 
->>D>> isbn attribute for relation books and {isbn,author} for relation .authors.
-
+>>D>> isbn attribute for relation books and isbn,author for relation .authors.
 
