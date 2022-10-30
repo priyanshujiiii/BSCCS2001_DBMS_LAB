@@ -161,6 +161,8 @@ Normalization is a method to remove all these anomalies and bring the database t
 First Normal Form
 First Normal Form is defined in the definition of relations (tables) itself. This rule defines that all the attributes in a relation must have atomic domain
 . The values in an atomic domain are indivisible units.
+
+
                                                ----------------------------------------------------------
                                                |        Course          |  Content                      |
                                                |--------------------------------------------------------|
