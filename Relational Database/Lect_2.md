@@ -10,13 +10,19 @@
 
 >>D>> None of the above
 
+Functional Dependency
+Functional dependency (FD) is a set of constraints between two attributes in a relation. Functional dependency says that if two tuples have same values for attributes A1, A2,..., An, then those two tuples must have to have same values for attributes B1, B2, ..., Bn.
+
+Functional dependency is represented by an arrow sign (→) that is, X→Y, where X functionally determines Y. The left-hand side attributes determine the values of attributes on the right-hand side.
+
+ANS: A,B
 
 _______________________________________________________________________________________________________________________________________________________________
 ***************************************************************************************************************************************************************
 
 <img width="476" alt="DBCD" src="https://user-images.githubusercontent.com/89120960/198874747-8c4358c7-885b-49cc-8650-44c205839461.png">
 
-2) If hostel\_id \rightarrow s\_depthostel_id→s_dept is a valid functional dependency, then what are the possible values of s\_depts_dept at positions indicated by a, b, c?
+2) If hostel_id → s_dept is a valid functional dependency, then what are the possible values of s_dept at positions indicated by a, b, c?
 
 >>A>> a = CSE, b = CSE, c = CSE
 
@@ -25,6 +31,16 @@ ________________________________________________________________________________
 >>C>> a = ME, b = CSE, c = CSE
 
 >>D>> a = ME, b = CSE, c = ECE
+
+Discussion:
+Functional Dependency
+Functional dependency (FD) is a set of constraints between two attributes in a relation. Functional dependency says that if two tuples have same values for attributes A1, A2,..., An, then those two tuples must have to have same values for attributes B1, B2, ..., Bn.
+
+Functional dependency is represented by an arrow sign (→) that is, X→Y, where X functionally determines Y. The left-hand side attributes determine the values of attributes on the right-hand side.
+
+if we talking about option A,B they are following above rule. However remaining not. for option c they are violating.
+
+ANS A and B
 
 ________________________________________________________________________________________________________________________________________________________________
 ****************************************************************************************************************************************************************
@@ -40,6 +56,16 @@ ________________________________________________________________________________
 >>C>> Both options 1 and 2 are correct
 
 >>D>> None of the options are correct
+
+Discussion:
+Functional Dependency
+Functional dependency (FD) is a set of constraints between two attributes in a relation. Functional dependency says that if two tuples have same values for attributes A1, A2,..., An, then those two tuples must have to have same values for attributes B1, B2, ..., Bn.
+
+Functional dependency is represented by an arrow sign (→) that is, X→Y, where X functionally determines Y. The left-hand side attributes determine the values of attributes on the right-hand side.
+here we seeing that s_joining sate couldn,t uniquely identified.
+
+ANS: B is correct option
+
 ________________________________________________________________________________________________________________________________________________________________
 ****************************************************************************************************************************************************************
 
@@ -55,6 +81,14 @@ Functional dependencies always follow transitive property i.e. if A → B and B 
 
 >>D>> Both statements are incorrect
 
+Discussion:
+           we know that statement 1 is not possible in general cases.
+           statement 2 is transivity relation.
+
+ANS: B
+
+
+
 ________________________________________________________________________________________________________________________________________________________________
 ****************************************************************************************************************************************************************
 
@@ -68,6 +102,15 @@ ________________________________________________________________________________
 
 >>D>> Functional dependencies are used for expressing logical constraints.
 
+Discussion:
+           Major concept: 
+           
+           A candidate key is a part of a key known as Super Key (discussed in the previous section), where the super key is the super set of all those 
+           attributes that can uniquely identify a table.Here, we will be discussing about candidate key, its role, as well as its use. We will also 
+           look at some examples that will make us to better understand the concept of a candidate key.
+           
+           A superkey is a combination of columns that uniquely identifies any row within a relational database management system (RDBMS) table. 
+           A candidate key is a closely related concept where the superkey is reduced to the minimum number of columns required to uniquely identify each row.
 
 
 ________________________________________________________________________________________________________________________________________________________________
