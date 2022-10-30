@@ -32,11 +32,11 @@ Anamoly : inconsistency of data arises due to change of data in data bases.
 
 >>A>> Select anomaly
 
->>A>> Insertion anomaly.
+>>B>> Insertion anomaly.
 
->>A>> Deletion anomaly.
+>>C>> Deletion anomaly.
 
->>A>> Update anomaly
+>>D>> Update anomaly
 
 
 
@@ -45,11 +45,11 @@ This situation can be described as ...............
 
 >>A>> Select anomaly
 
->>A>> Insertions anomaly.
+>>B>> Insertions anomaly.
 
->>A>> Deletion anomaly.
+>>C>> Deletion anomaly.
 
->>A>> Update anomaly
+>>D>> Update anomaly
 
 
 
@@ -57,11 +57,11 @@ This situation can be described as ...............
 
 >>A>> It decomposes a relation into smaller relations, such that if we perform a natural join of smaller relations, it will return the original relation.
 
->>A>> It decomposes a relation into smaller relations, such that if we perform a natural join of the smaller relations, it will return more tuples than the original relation.
+>>B>> It decomposes a relation into smaller relations, such that if we perform a natural join of the smaller relations, it will return more tuples than the original relation.
 
->>A>> It decomposes a relation into smaller relations, such that if we perform a natural join of the smaller relations, it will return lesser tuples than the original relation.
+>>C>> It decomposes a relation into smaller relations, such that if we perform a natural join of the smaller relations, it will return lesser tuples than the original relation.
 
->>A>> It is effective in removing redundancy from databases while preserving the original data.
+>>D>> It is effective in removing redundancy from databases while preserving the original data.
 
 
 
@@ -69,11 +69,11 @@ This situation can be described as ...............
 
 >>A>> The domains of all attributes of the relation are atomic.
 
->>A>> A relation in 1NF may contain one or more composite or multivalued attributes.
+>>B>> A relation in 1NF may contain one or more composite or multivalued attributes.
 
->>A>> In DBMS, we assume that all the relations are in 1NF, by default.
+>>C>> In DBMS, we assume that all the relations are in 1NF, by default.
 
->>A>> The value of each attribute contains only a single value from that attribute’s domain.
+>>D>> The value of each attribute contains only a single value from that attribute’s domain.
 
 
 7) We want to store information about some books in a database. Every book has a unique ISBN, a name, a publisher and multiple authors. An author can also write multiple books. We consider the following two relations, each of which are in 1NF.
@@ -83,10 +83,10 @@ authors { isbn, authorisbn,author}
 
 What should be the primary keys for the tables?
 
->>A>> \textit{isbn}isbn attribute for relation \textbf{books}books and \textit{isbn}isbn for relation \textbf{authors}authors.
+>>A>> isbn attribute for relation books and isbn for relation authors.
 
->>A>> \textit{publisher}publisher attribute for relation \textbf{books}books and \textit{isbn}isbn for relation \textbf{authors}.authors.
+>>B>> publisher attribute for relationbooks and isbn for relation authors.
 
->>A>> \textit{publisher}publisher attribute for relation \textbf{books}books and \textit{author}author for relation \textbf{authors}authors.
+>>C>> publisher attribute for relation books and author for relation authors.
 
->>A>> \textit{isbn}isbn attribute for relation \textbf{books}books and \{ \textit{isbn}, \textit{author} \}{isbn,author} for relation \textbf{authors}.authors.
+>>D>> isbn attribute for relation books and {isbn,author} for relation .authors.
