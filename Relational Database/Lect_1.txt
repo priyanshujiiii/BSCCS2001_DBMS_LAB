@@ -168,6 +168,8 @@ First Normal Form is defined in the definition of relations (tables) itself. Thi
                                                |   Web                  |   HTML , PHP , ASP            |
                                                ----------------------------------------------------------
                                                
+                                     We re-arrange the relation (table) as below, to convert it to First Normal Form.
+                                               
                                                ----------------------------------------------------------
                                                |        Course          |  Content                      |
                                                |--------------------------------------------------------|
@@ -177,6 +179,8 @@ First Normal Form is defined in the definition of relations (tables) itself. Thi
                                                |   Web                  |   PHP                         |
                                                |   Web                  |   ASP                         |
                                                ----------------------------------------------------------
+                                               
+                                     Each attribute must contain only a single value from its pre-defined domain.
 _________________________________________________________________________________________________________________________________________________________________
 *****************************************************************************************************************************************************************
 
