@@ -137,8 +137,13 @@ Lossless Decomposition
 >> If the information is not lost from the relation that is decomposed, then the decomposition will be lossless.
 >> The lossless decomposition guarantees that the join of relations will result in the same relation as it was decomposed.
 >> The relation is said to be lossless decomposition if natural joins of all the decomposition give the original relation.
+from above concept option A and D are correct.
+
+ANS: >>A>>, >>D>>
 _________________________________________________________________________________________________________________________________________________________________
 *****************************************************************************************************************************************************************
+
+Multiple correct options.
 
 6) If a relation is in 1NF, then which of the following is/are true about the relation?
 
@@ -149,6 +154,30 @@ ________________________________________________________________________________
 >>C>> In DBMS, we assume that all the relations are in 1NF, by default.
 
 >>D>> The value of each attribute contains only a single value from that attribute’s domain.
+
+Discussion:
+
+Normalization is a method to remove all these anomalies and bring the database to a consistent state.
+First Normal Form
+First Normal Form is defined in the definition of relations (tables) itself. This rule defines that all the attributes in a relation must have atomic domains. The values in an atomic domain are indivisible units.
+                                               ----------------------------------------------------------
+                                               |        Course          |  Content                      |
+                                               |--------------------------------------------------------|
+                                               |   Programming          |   Java , C++                  |
+                                               |   Web                  |   HTML , PHP , ASP            |
+                                               ----------------------------------------------------------
+                                               
+                                               ----------------------------------------------------------
+                                               |        Course          |  Content                      |
+                                               |--------------------------------------------------------|
+                                               |   Programming          |   Java                        |
+                                               |   Programming          |   C++                         |
+                                               |   Web                  |   HTML                        |
+                                               |   Web                  |   PHP                         |
+                                               |   Web                  |   ASP                         |
+                                               ----------------------------------------------------------
+_________________________________________________________________________________________________________________________________________________________________
+*****************************************************************************************************************************************************************
 
 
 7) We want to store information about some books in a database. Every book has a unique ISBN, a name, a publisher and multiple authors. An author can also 
