@@ -20,11 +20,11 @@ ________________________________________________________________________________
 
 >>A>> a = CSE, b = CSE, c = CSE
 
->>A>> a = CSE, b = ECE, c = ME
+>>B>> a = CSE, b = ECE, c = ME
 
->>A>> a = ME, b = CSE, c = CSE
+>>C>> a = ME, b = CSE, c = CSE
 
->>A>> a = ME, b = CSE, c = ECE
+>>D>> a = ME, b = CSE, c = ECE
 
 ________________________________________________________________________________________________________________________________________________________________
 ****************************************************************************************************************************************************************
@@ -35,11 +35,11 @@ ________________________________________________________________________________
 
 >>A>>  s_joining_date → s_name,s_id holds.
 
->>A>> s_name,s_id→  s_joining_date holds.
+>>B>> s_name,s_id→  s_joining_date holds.
 
->>A>> Both options 1 and 2 are correct
+>>C>> Both options 1 and 2 are correct
 
->>A>> None of the options are correct
+>>D>> None of the options are correct
 ________________________________________________________________________________________________________________________________________________________________
 ****************************************************************************************************************************************************************
 
@@ -49,11 +49,11 @@ Functional dependencies always follow transitive property i.e. if A → B and B 
 
 >>A>> Statement 1 is true, Statement 2 is false
 
->>A>> Statement 2 is true, Statement 1 is false
+>>B>> Statement 2 is true, Statement 1 is false
 
->>A>> Both statements are correct
+>>C>> Both statements are correct
 
->>A>> Both statements are incorrect
+>>D>> Both statements are incorrect
 
 ________________________________________________________________________________________________________________________________________________________________
 ****************************************************************************************************************************************************************
@@ -62,11 +62,11 @@ ________________________________________________________________________________
 
 >>A>> A candidate key is always a proper subset of a super key.
 
->>A>> All attributes of a relation are functionally dependant on a super key.
+>>B>> All attributes of a relation are functionally dependant on a super key.
 
->>A>> A table may be such that, there can be no super keys.
+>>C>> A table may be such that, there can be no super keys.
 
->>A>> Functional dependencies are used for expressing logical constraints.
+>>D>> Functional dependencies are used for expressing logical constraints.
 
 
 
@@ -81,11 +81,11 @@ An instance of R may be such that it does not satisfy some functional dependenci
 
 >>A>> Statement 1 is true, Statement 2 is false
 
->>A>> Statement 1 is false, Statement 2 is false
+>>B>> Statement 1 is false, Statement 2 is false
 
->>A>> Statement 1 is true, Statement 2 is true
+>>C>> Statement 1 is true, Statement 2 is true
 
->>A>> Statement 1 is false, Statement 2 is true
+>>D>> Statement 1 is false, Statement 2 is true
 
 ________________________________________________________________________________________________________________________________________________________________
 ****************************************************************************************************************************************************************
@@ -97,12 +97,12 @@ ________________________________________________________________________________
 >>A>> F⊂F^+
  
 
->>A>> F⊆F^+
+>>B>> F⊆F^+
  
 
->>A>> F^+ ⊆F
+>>C>> F^+ ⊆F
 
->>A>> F^+ ⊂F
+>>D>> F^+ ⊂F
 
 ________________________________________________________________________________________________________________________________________________________________
 ****************************************************************************************************************************************************************
@@ -112,11 +112,11 @@ ________________________________________________________________________________
 
 >>A>> All dependencies inside F^+ are logically implied by F
 
->>A>> All dependencies inside F may not be a member of F^+
+>>B>> All dependencies inside F may not be a member of F^+
  
->>A>> If a relation satisfies FF it must satisfy F^{+}F^+
+>>C>> If a relation satisfies FF it must satisfy F^{+}F^+
  
->>A>> F^+ can be infinite even for a finite relation R
+>>D>> F^+ can be infinite even for a finite relation R
 
 
 ________________________________________________________________________________________________________________________________________________________________
@@ -126,8 +126,8 @@ ________________________________________________________________________________
 
 >>A>> A→BC and C→D
 
->>A>> B→C and C→B
+>>B>> B→C and C→B
 
->>A>> BA→C and D→BA
+>>C>> BA→C and D→BA
 
->>A>> BD→D andAB→B
+>>D>> BD→D andAB→B
