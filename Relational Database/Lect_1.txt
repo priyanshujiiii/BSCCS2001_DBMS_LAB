@@ -92,6 +92,7 @@ ANS: A
 _______________________________________________________________________________________________________________________________________________________________
 ***************************************************************************************************************************************************************
 
+Single Correct options.
 4) In a database, changing a single data may require changing many records, leading to the possibility of some changes being made incorrectly.
 This situation can be described as ...............
 
@@ -102,6 +103,21 @@ This situation can be described as ...............
 >>C>> Deletion anomaly.
 
 >>D>> Update anomaly
+
+Discussion:
+select anomaly does not exist:
+
+Anamoly : inconsistency of data arises due to change of data in data bases.
+             Anamoly are in 3 types. 1) Insertions Anomaly : When the insertion of a data record is not possible without adding some additional
+                                        unrelated data to the record
+                                     2) Deletion Anomaly : When deletion of a data record results in losing some unrelated information that
+                                        was stored as part of the record that was deleted from a table
+                                     3) Update Anomaly : When a data is changed, which could involve many records having to be changed,
+                                        leading to the possibility of some changes being made incorrectly
+
+ANS: >>D>> Update Anamoly
+_________________________________________________________________________________________________________________________________________________________________
+*****************************************************************************************************************************************************************
 
 
 
@@ -115,7 +131,14 @@ This situation can be described as ...............
 
 >>D>> It is effective in removing redundancy from databases while preserving the original data.
 
+Discussion:
 
+Lossless Decomposition
+>> If the information is not lost from the relation that is decomposed, then the decomposition will be lossless.
+>> The lossless decomposition guarantees that the join of relations will result in the same relation as it was decomposed.
+>> The relation is said to be lossless decomposition if natural joins of all the decomposition give the original relation.
+_________________________________________________________________________________________________________________________________________________________________
+*****************************************************************************************************************************************************************
 
 6) If a relation is in 1NF, then which of the following is/are true about the relation?
 
