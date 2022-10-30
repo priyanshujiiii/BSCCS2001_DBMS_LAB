@@ -3,7 +3,7 @@ W5-L1
 Reduancy : Multiple copies of Data
 Anamoly : inconsistency of data arises due to change of data in data bases.
 
-
+Single correct:
 
 1) Which among the following is not a feature of a good database design?
 
@@ -21,9 +21,12 @@ Discussion:
  if we discussed about option b. we clearly seeing that redundant storage are multiple copies of data.
  another thing is if we discussed about good data base reduanant storage make database inconsisent this lead 
  sign of bad data base.
-
+ 
+ANS: >>B>>
 ______________________________________________________________________________________________________________________________________________________________
 **************************************************************************************************************************************************************
+
+Multiple correct:
 
 2) Which among the following statements is/are true about redundancy in databases?
 
@@ -59,6 +62,11 @@ first fall here we are covering the all these concept
     >> Decomposition is used to eliminate some of the problems of bad design like anomalies, inconsistencies, and redundancy.
     
     Relational Decomposition are in 2 types: 1) Lossless Decomposition 2) Dependency Preserving
+    
+    
+ Discussion: If we understand the above concepts and question option >>C>> is contradicting.
+ 
+ ANS: A,B and D.
 
 _______________________________________________________________________________________________________________________________________________________________
 ***************************************************************************************************************************************************************
