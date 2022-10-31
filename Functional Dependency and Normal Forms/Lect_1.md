@@ -1,1 +1,208 @@
+W5-L1
+
+Reduancy : Multiple copies of Data
+Anamoly : inconsistency of data arises due to change of data in data bases.
+
+Single correct:
+
+1) Which among the following is not a feature of a good database design?
+
+>>A>> The design should provide efficient access to data.
+
+>>B>> The design must promote redundant storage of the data items.
+
+>>C>> The design must be clean, consistent, and easy to understand.
+
+>>D>> The design must consider all expected data over time.
+
+Discussion:
+
+>>B>> The design must promote redundant storage of the data items.
+ if we discussed about option b. we clearly seeing that redundant storage are multiple copies of data.
+ another thing is if we discussed about good data base reduanant storage make database inconsisent this lead 
+ sign of bad data base.
+ 
+ANS: >>B>>
+______________________________________________________________________________________________________________________________________________________________
+**************************************************************************************************************************************************************
+
+Multiple correct:
+
+2) Which among the following statements is/are true about redundancy in databases?
+
+>>A>> Redundancy may result in data anomaly.
+
+>>b>> Redundancy may arise due to an un-normalized database.
+
+>>C>> Redundancy mandates that a data item cannot have multiple copies in the database.
+
+>>D>> Redundancy can be reduced by appropriate decomposition of relations.
+
+Here this problem covering 5 concepts :Redundancy , anamoly , data anomaly , un-normalized database, decomposition of relation.
+first fall here we are covering the all these concept
+1) Redundancy : Multiple copies of Data
+
+2) Anamoly : inconsistency of data arises due to change of data in data bases.
+             Anamoly are in 3 types. 1) Insertions Anomaly : When the insertion of a data record is not possible without adding some additional
+                                        unrelated data to the record
+                                     2) Deletion Anomaly : When deletion of a data record results in losing some unrelated information that
+                                        was stored as part of the record that was deleted from a table
+                                     3) Update Anomaly : When a data is changed, which could involve many records having to be changed,
+                                        leading to the possibility of some changes being made incorrectly
+                                        
+3) Data Anamoly: inconsistency of data arises due to change of data in data bases.
+
+4)  un-normalized database: If a database design is not perfect, it may contain anomalies, which are like a bad dream for any database administrator. Managing a database with anomalies is next to impossible. Anamoly are in 3 types.  1) Insertions Anomaly 2) Deletion Anomaly 3) Update Anomaly 
+
+5)  decomposition of relation: 
+    Relational Decomposition
+    >> When a relation in the relational model is not in appropriate normal form then the decomposition of a relation is required.
+    >> In a database, it breaks the table into multiple tables.
+    >> If the relation has no proper decomposition, then it may lead to problems like loss of information.
+    >> Decomposition is used to eliminate some of the problems of bad design like anomalies, inconsistencies, and redundancy.
+    
+    Relational Decomposition are in 2 types: 1) Lossless Decomposition 2) Dependency Preserving
+    
+    
+ Discussion: If we understand the above concepts and question option >>C>> is contradicting.
+ 
+ ANS: A,B and D.
+
+_______________________________________________________________________________________________________________________________________________________________
+***************************************************************************************************************************************************************
+
+3) Which of the following is not a data anomaly?
+
+>>A>> Select anomaly
+
+>>B>> Insertion anomaly.
+
+>>C>> Deletion anomaly.
+
+>>D>> Update anomaly
+
+Discussion:
+
+Anomaly: inconsistencies that can arise due to data changes in a database with
+insertion, deletion, and update
+Anamoly are in 3 types.  1) Insertions Anomaly 2) Deletion Anomaly 3) Update Anomaly 
+
+ANS: A
+
+_______________________________________________________________________________________________________________________________________________________________
+***************************************************************************************************************************************************************
+
+Single Correct options.
+4) In a database, changing a single data may require changing many records, leading to the possibility of some changes being made incorrectly.
+This situation can be described as ...............
+
+>>A>> Select anomaly
+
+>>B>> Insertions anomaly.
+
+>>C>> Deletion anomaly.
+
+>>D>> Update anomaly
+
+Discussion:
+select anomaly does not exist:
+
+Anamoly : inconsistency of data arises due to change of data in data bases.
+             Anamoly are in 3 types. 1) Insertions Anomaly : When the insertion of a data record is not possible without adding some additional
+                                        unrelated data to the record
+                                     2) Deletion Anomaly : When deletion of a data record results in losing some unrelated information that
+                                        was stored as part of the record that was deleted from a table
+                                     3) Update Anomaly : When a data is changed, which could involve many records having to be changed,
+                                        leading to the possibility of some changes being made incorrectly
+
+ANS: >>D>> Update Anamoly
+_________________________________________________________________________________________________________________________________________________________________
+*****************************************************************************************************************************************************************
+
+
+
+5) Which of the following statement(s) is/are true for lossless join decomposition?
+
+>>A>> It decomposes a relation into smaller relations, such that if we perform a natural join of smaller relations, it will return the original relation.
+
+>>B>> It decomposes a relation into smaller relations, such that if we perform a natural join of the smaller relations, it will return more tuples than the original relation.
+
+>>C>> It decomposes a relation into smaller relations, such that if we perform a natural join of the smaller relations, it will return lesser tuples than the original relation.
+
+>>D>> It is effective in removing redundancy from databases while preserving the original data.
+
+Discussion:
+
+Lossless Decomposition
+>> If the information is not lost from the relation that is decomposed, then the decomposition will be lossless.
+>> The lossless decomposition guarantees that the join of relations will result in the same relation as it was decomposed.
+>> The relation is said to be lossless decomposition if natural joins of all the decomposition give the original relation.
+from above concept option A and D are correct.
+
+ANS: >>A>>, >>D>>
+_________________________________________________________________________________________________________________________________________________________________
+*****************************************************************************************************************************************************************
+
+Multiple correct options.
+
+6) If a relation is in 1NF, then which of the following is/are true about the relation?
+
+>>A>> The domains of all attributes of the relation are atomic.
+
+>>B>> A relation in 1NF may contain one or more composite or multivalued attributes.
+
+>>C>> In DBMS, we assume that all the relations are in 1NF, by default.
+
+>>D>> The value of each attribute contains only a single value from that attribute’s domain.
+
+Discussion:
+
+Normalization is a method to remove all these anomalies and bring the database to a consistent state.
+First Normal Form
+First Normal Form is defined in the definition of relations (tables) itself. This rule defines that all the attributes in a relation must have atomic domain
+. The values in an atomic domain are indivisible units.
+
+
+                                               ----------------------------------------------------------
+                                               |        Course          |  Content                      |
+                                               |--------------------------------------------------------|
+                                               |   Programming          |   Java , C++                  |
+                                               |   Web                  |   HTML , PHP , ASP            |
+                                               ----------------------------------------------------------
+                                               
+                                     We re-arrange the relation (table) as below, to convert it to First Normal Form.
+                                               
+                                               ----------------------------------------------------------
+                                               |        Course          |  Content                      |
+                                               |--------------------------------------------------------|
+                                               |   Programming          |   Java                        |
+                                               |   Programming          |   C++                         |
+                                               |   Web                  |   HTML                        |
+                                               |   Web                  |   PHP                         |
+                                               |   Web                  |   ASP                         |
+                                               ----------------------------------------------------------
+                                               
+                                     Each attribute must contain only a single value from its pre-defined domain.
+                                     
+from above explamation option >>B>> is contradicting.
+_________________________________________________________________________________________________________________________________________________________________
+*****************************************************************************************************************************************************************
+
+
+7) We want to store information about some books in a database. Every book has a unique ISBN, a name, a publisher and multiple authors. An author can also 
+write multiple books. We consider the following two relations, each of which are in 1NF.
+
+books { isbn, name,publisher }
+authors { isbn,author}
+
+What should be the primary keys for the tables?
+
+>>A>> isbn attribute for relation books and isbn for relation authors.
+
+>>B>> publisher attribute for relation books and isbn for relation authors.
+
+>>C>> publisher attribute for relation books and author for relation authors.
+
+>>D>> isbn attribute for relation books and isbn,author for relation .authors.
+
 
