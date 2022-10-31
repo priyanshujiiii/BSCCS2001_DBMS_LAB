@@ -1,1 +1,177 @@
+<img width="476" alt="DBCD" src="https://user-images.githubusercontent.com/89120960/198874747-8c4358c7-885b-49cc-8650-44c205839461.png">
+
+1) Choose all the functional dependencies applicable to the given table.
+
+>>A>> s_id → s_name
+
+>>B>> s_id → s_joining_date
+
+>>C>> hostel_id → room_id
+
+>>D>> None of the above
+
+Functional Dependency
+Functional dependency (FD) is a set of constraints between two attributes in a relation. Functional dependency says that if two tuples have same values for attributes A1, A2,..., An, then those two tuples must have to have same values for attributes B1, B2, ..., Bn.
+
+Functional dependency is represented by an arrow sign (→) that is, X→Y, where X functionally determines Y. The left-hand side attributes determine the values of attributes on the right-hand side.
+
+ANS: A,B
+
+_______________________________________________________________________________________________________________________________________________________________
+***************************************************************************************************************************************************************
+
+<img width="476" alt="DBCD" src="https://user-images.githubusercontent.com/89120960/198874747-8c4358c7-885b-49cc-8650-44c205839461.png">
+
+2) If hostel_id → s_dept is a valid functional dependency, then what are the possible values of s_dept at positions indicated by a, b, c?
+
+>>A>> a = CSE, b = CSE, c = CSE
+
+>>B>> a = CSE, b = ECE, c = ME
+
+>>C>> a = ME, b = CSE, c = CSE
+
+>>D>> a = ME, b = CSE, c = ECE
+
+Discussion:
+Functional Dependency
+Functional dependency (FD) is a set of constraints between two attributes in a relation. Functional dependency says that if two tuples have same values for attributes A1, A2,..., An, then those two tuples must have to have same values for attributes B1, B2, ..., Bn.
+
+Functional dependency is represented by an arrow sign (→) that is, X→Y, where X functionally determines Y. The left-hand side attributes determine the values of attributes on the right-hand side.
+
+if we talking about option A,B they are following above rule. However remaining not. for option c they are violating.
+
+ANS A and B
+
+________________________________________________________________________________________________________________________________________________________________
+****************************************************************************************************************************************************************
+
+<img width="476" alt="DBCD" src="https://user-images.githubusercontent.com/89120960/198874747-8c4358c7-885b-49cc-8650-44c205839461.png">
+
+3) Choose the correct option among the choices given below.
+
+>>A>>  s_joining_date → s_name,s_id holds.
+
+>>B>> s_name,s_id→  s_joining_date holds.
+
+>>C>> Both options 1 and 2 are correct
+
+>>D>> None of the options are correct
+
+Discussion:
+Functional Dependency
+Functional dependency (FD) is a set of constraints between two attributes in a relation. Functional dependency says that if two tuples have same values for attributes A1, A2,..., An, then those two tuples must have to have same values for attributes B1, B2, ..., Bn.
+
+Functional dependency is represented by an arrow sign (→) that is, X→Y, where X functionally determines Y. The left-hand side attributes determine the values of attributes on the right-hand side.
+here we seeing that s_joining sate couldn,t uniquely identified.
+
+ANS: B is correct option
+
+________________________________________________________________________________________________________________________________________________________________
+****************************************************************************************************************************************************************
+
+4) Consider the following statements 
+Functional dependencies always follow commutative property i.e. if A → B holds then B → A also holds. 
+Functional dependencies always follow transitive property i.e. if A → B and B → C holds then A → C also holds.
+
+>>A>> Statement 1 is true, Statement 2 is false
+
+>>B>> Statement 2 is true, Statement 1 is false
+
+>>C>> Both statements are correct
+
+>>D>> Both statements are incorrect
+
+Discussion:
+           we know that statement 1 is not possible in general cases.
+           statement 2 is transivity relation.
+
+ANS: B
+
+
+
+________________________________________________________________________________________________________________________________________________________________
+****************************************************************************************************************************************************************
+
+5) Choose all the correct statement(s) from among the following.
+
+>>A>> A candidate key is always a proper subset of a super key.
+
+>>B>> All attributes of a relation are functionally dependant on a super key.
+
+>>C>> A table may be such that, there can be no super keys.
+
+>>D>> Functional dependencies are used for expressing logical constraints.
+
+Discussion:
+           Major concept: 
+           
+           A candidate key is a part of a key known as Super Key (discussed in the previous section), where the super key is the super set of all those 
+           attributes that can uniquely identify a table.Here, we will be discussing about candidate key, its role, as well as its use. We will also 
+           look at some examples that will make us to better understand the concept of a candidate key.
+           
+           A superkey is a combination of columns that uniquely identifies any row within a relational database management system (RDBMS) table. 
+           A candidate key is a closely related concept where the superkey is reduced to the minimum number of columns required to uniquely identify each row.
+
+
+________________________________________________________________________________________________________________________________________________________________
+****************************************************************************************************************************************************************
+
+
+6) Let F be a set of functional dependencies such that a relation R satisfies F. Now, consider the following statements.
+
+ An instance of R may be such that it satisfies some functional dependencies which are not in F. 
+An instance of R may be such that it does not satisfy some functional dependencies which belong to F.
+
+>>A>> Statement 1 is true, Statement 2 is false
+
+>>B>> Statement 1 is false, Statement 2 is false
+
+>>C>> Statement 1 is true, Statement 2 is true
+
+>>D>> Statement 1 is false, Statement 2 is true
+
+________________________________________________________________________________________________________________________________________________________________
+****************************************************************************************************************************************************************
+
+7) Choose the correct relation between a set of functional dependencies \textbf{F}F and its closure F^+F 
++
+ .
+
+>>A>> F⊂F^+
+ 
+
+>>B>> F⊆F^+
+ 
+
+>>C>> F^+ ⊆F
+
+>>D>> F^+ ⊂F
+
+________________________________________________________________________________________________________________________________________________________________
+****************************************************************************************************************************************************************
+
+
+8) Choose all the correct option(s) from among the following.
+
+>>A>> All dependencies inside F^+ are logically implied by F
+
+>>B>> All dependencies inside F may not be a member of F^+
+ 
+>>C>> If a relation satisfies FF it must satisfy F^{+}F^+
+ 
+>>D>> F^+ can be infinite even for a finite relation R
+
+
+________________________________________________________________________________________________________________________________________________________________
+****************************************************************************************************************************************************************
+
+9) Which among the following is a set of trivial functional dependencies on R(A, B, C, D)?
+
+>>A>> A→BC and C→D
+
+>>B>> B→C and C→B
+
+>>C>> BA→C and D→BA
+
+>>D>> BD→D andAB→B
 
