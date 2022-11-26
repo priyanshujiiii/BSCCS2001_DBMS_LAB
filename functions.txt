@@ -1,1 +1,3 @@
 /d display a table
+/l display a database
+/c connecting to a data base e.g \c second_database;
